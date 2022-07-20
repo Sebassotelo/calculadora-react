@@ -1,0 +1,30 @@
+.boton-contenedor{
+    height: 75px;
+    min-width: 80%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-weight: bold;
+    border-radius: 15px;
+    background: linear-gradient(180deg, rgb(69, 252, 252) 0%, rgb(31, 55, 61) 50%, rgb(0, 0, 0) 100%);
+    margin: 8px;
+    font-size: 38px;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    user-select: none;
+}
+.boton-contenedor:hover{
+    background: linear-gradient(160deg, rgb(69, 252, 252) 0%, rgb(31, 55, 61) 50%, rgb(0, 0, 0) 100%);;
+}
+
+.boton-contenedor:active{
+    transform: scale(0.98);
+}
+.operador{
+    background-color: rgb(173, 146, 216);
+}
+
+.operador:hover{
+    background-color: rgb(135, 114, 168);
+}
